@@ -7,7 +7,7 @@ int main() {
 
     int res = strrindex("abcdefdsd","def");
 
-    double  d = atof(" -2921.22");
+    double  d = atof(" 9.2E5");
 
     printf("%f\n",d);
 
