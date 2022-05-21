@@ -1,10 +1,12 @@
-#include <stdio.h>
+#include "stdio.h"
+#include <stdlib.h>/* for atof() */
 #include <math.h>
-#include "stdlib.h"
-#include "4/4-3-op.h"
+#include "4-3-op.h"
 
 
-int main() {
+/* reverse polish calculator */
+int exec() {
+
     int type;
     double op2;
     char s[MAXOP];
