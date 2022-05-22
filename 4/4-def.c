@@ -2,7 +2,7 @@
 // Created by marun on 2022/5/21.
 //
 
-#include "4-3-op.h"
+#include "4-def.h"
 #include "stdio.h"
 #include "string.h"
 #include "ctype.h"
@@ -115,3 +115,8 @@ double pop(void) {
     }
 }
 
+
+
+void clear() {
+    sp = 0;
+}

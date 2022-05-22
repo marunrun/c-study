@@ -29,3 +29,5 @@ void ungetch(int);
 void push(double );
 double pop(void);
 
+void clear();
+
