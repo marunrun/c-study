@@ -1,7 +1,9 @@
 #include "stdio.h"
 #include <stdlib.h>/* for atof() */
 #include <math.h>
-#include "4-def.h"
+#include "calc.h"
+
+#define MAXOP 100
 
 
 /* reverse polish calculator */
@@ -11,7 +13,7 @@ int exec() {
     double op1;
     double op2;
     char s[MAXOP];
-    while ((type = getop(s)) != EOF) {
+    while ((type = getOp(s)) != EOF) {
         switch (type) {
             case NUMBER:
                 push(atof(s));
